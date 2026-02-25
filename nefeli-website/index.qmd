@@ -1,0 +1,271 @@
+---
+title: ""
+---
+
+```{=html}
+<!-- ═══════════════ HERO ═══════════════ -->
+<div class="hero">
+  <div class="hero-inner">
+    <img src="headshot.jpg" alt="Nefeli Zafeiri" class="hero-photo" />
+    <div class="hero-text">
+      <h1>Nefeli Zafeiri</h1>
+      <p class="subtitle">Business Analytics &nbsp;·&nbsp; Data Strategy &nbsp;·&nbsp; Operations</p>
+      <div class="contact-links">
+        <a href="mailto:nefelizafeiri@gmail.com">✉ nefelizafeiri@gmail.com</a>
+        <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank">in LinkedIn</a>
+        <a href="tel:7738153236">📞 773-815-3236</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ EDUCATION ═══════════════ -->
+<div class="section">
+  <h2 class="section-title">Education</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Miami Herbert Business School</span>
+      <span class="entry-role">Master of Science in Business Analytics</span>
+      <span class="entry-location">Coral Gables, FL</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">Expected May 2026</span>
+    </div>
+    <ul>
+      <li><strong>Related Coursework:</strong> Quality Management, Supply Chain Analytics, Business Consulting Analytics, Product Management</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Central Oklahoma</span>
+      <span class="entry-role">Bachelor of Business Administration in International Business &mdash; Minor in Finance</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">May 2025</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ EXPERIENCE ═══════════════ -->
+<div class="section-alt">
+<div class="section">
+  <h2 class="section-title">Experience</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Miami</span>
+      <span class="entry-role">Graduate Assistant</span>
+      <span class="entry-location">Miami, FL</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">October 2025 – Present</span>
+    </div>
+    <ul>
+      <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
+      <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
+      <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Central Oklahoma — Athletic Department</span>
+      <span class="entry-role">Finance Department Assistant</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2024 – May 2025</span>
+    </div>
+    <ul>
+      <li>Identified budget inefficiencies that reduced unnecessary event costs and improved resource utilization</li>
+      <li>Improved financial efficiency across athletic events by analyzing budget variances and supporting resource allocation</li>
+      <li>Reduced budget adjustments by flagging potential issues earlier in the event planning cycle</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Central Oklahoma</span>
+      <span class="entry-role">Research Assistant — National Conference Undergraduate Research</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">March 2024 – April 2025</span>
+    </div>
+    <ul>
+      <li>Achieved <strong>1st place at Oklahoma Research Day 2025</strong> for a regression-based analysis of natural gas price behavior</li>
+      <li>Analyzed weather and forecast datasets in Excel to quantify their influence on natural gas price movements</li>
+      <li>Interpreted analytical findings to support financial forecasting and inform energy market decision-making</li>
+      <li>Developed predictive models using regression and time-series techniques to identify long-term market trends</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Zafeiris LTD (Beverage Distribution)</span>
+      <span class="entry-role">Communication Specialist | Business Operations</span>
+      <span class="entry-location">Athens, Greece</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">June 2020 – May 2025</span>
+    </div>
+    <ul>
+      <li>Analyzed customer demand and product-mix trends to optimize inventory, shifting resources toward high-demand items and reducing low-performing SKUs</li>
+      <li>Expanded brand visibility by <strong>25%</strong> by assisting with promotional campaigns and community events</li>
+      <li>Negotiated pricing and delivery terms with suppliers and customers, improving cost efficiency and partnerships</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════════ ACTIVITIES & INTERESTS ═══════════════ -->
+<div class="section">
+  <h2 class="section-title">Activities &amp; Interests</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Deloitte Scholar — DIRPA Program</span>
+      <span class="entry-role">Deloitte Institute for Research &amp; Practice in Analytics</span>
+      <span class="entry-location">Miami, FL</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">October 2025 – October 2026</span>
+    </div>
+    <ul>
+      <li>Won a scholarship in data visualization demonstrating strength in analytics and business strategy</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Deloitte Capstone Project — Wildfire AI</span>
+      <span class="entry-role">AI-Driven Wildfire Risk Monitoring</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">January 2026 – May 2026</span>
+    </div>
+    <ul>
+      <li>Collaborating with Deloitte to develop an AI-driven solution for wildfire risk monitoring and early detection, translating analytics into insights for real-world decision-making</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Graduate Business Student Association</span>
+      <span class="entry-role">MSBA Cohort Representative</span>
+      <span class="entry-location">Miami, FL</span>
+    </div>
+    <ul>
+      <li>Represent the MSBA program, supporting initiatives to improve student engagement and collaboration</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Python Project</span>
+      <span class="entry-role">Budget App Developer</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2025 – October 2025</span>
+    </div>
+    <ul>
+      <li>Built a Python Budget App with expense tracking, automation, and visualization</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Varsity Tennis Team</span>
+      <span class="entry-role">Student-Athlete</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2021 – May 2025</span>
+    </div>
+    <ul>
+      <li>Awarded Top-2 line-up positions throughout college tennis career while leading a team of 6–12 players</li>
+      <li>Represented the university at major regional and national NCAA tournaments, competing against top-ranked athletes</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Student-Athlete Advisory Committee</span>
+      <span class="entry-role">Member</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2021 – May 2023</span>
+    </div>
+    <ul>
+      <li>Organized and coordinated community service initiatives supporting student-athlete welfare</li>
+      <li>Contributed to enhancements of Athletic Department programs for student-athletes</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">International Children Games — Taipei, Taiwan</span>
+      <span class="entry-role">National Tennis Team — Greece</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">July 2016</span>
+    </div>
+    <ul>
+      <li>Represented Greece as a member of the National Tennis Team at an international multi-sport competition</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════ SKILLS ═══════════════ -->
+<div class="section-alt">
+<div class="section">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h4>Technical Skills</h4>
+      <div class="tag-list">
+        <span class="tag">Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Tableau</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Microsoft Office Suite</span>
+        <span class="tag">Minitab</span>
+        <span class="tag">Visio</span>
+        <span class="tag">Jira</span>
+        <span class="tag">Six Sigma Green Belt</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h4>Languages</h4>
+      <div class="tag-list">
+        <span class="tag">Greek (Native)</span>
+        <span class="tag">English (Fluent)</span>
+        <span class="tag">French (Conversational)</span>
+        <span class="tag">German (Conversational)</span>
+        <span class="tag">Spanish (Basic)</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h4>Certifications</h4>
+      <div class="tag-list">
+        <span class="tag">Six Sigma Green Belt</span>
+        <span class="tag">PTR Tennis Coaching (Jan 2023)</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<div class="site-footer">
+  <p>© 2026 Nefeli Zafeiri &nbsp;·&nbsp;
+     <a href="mailto:nefelizafeiri@gmail.com">nefelizafeiri@gmail.com</a> &nbsp;·&nbsp;
+     <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank">LinkedIn</a>
+  </p>
+</div>
+```
