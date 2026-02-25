@@ -1,3 +1,5 @@
+/*-- scss:rules --*/
+
 /* ── General ── */
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
@@ -208,3 +210,4 @@ body {
   .entry { grid-template-columns: 1fr; }
   .entry-meta { text-align: left; }
 }
+
