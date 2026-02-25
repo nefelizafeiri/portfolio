@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nefeli Zafeiri"
+  description: "Business Analytics | Data & Strategy"
+  favicon: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nefeli-zafeiri
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:nefelizafeiri@gmail.com
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles.css
+    toc: false
+    page-layout: full
