@@ -10,6 +10,7 @@ title: ""
     <div class="hero-text">
       <h1>Nefeli Zafeiri</h1>
       <p class="subtitle">Business Analytics &nbsp;·&nbsp; Data Strategy &nbsp;·&nbsp; Operations</p>
+      <p class="bio">MSBA candidate at the University of Miami with a background in international business, finance, and data analytics. Passionate about translating data into actionable strategy.</p>
       <div class="contact-links">
         <a href="mailto:nefelizafeiri@gmail.com">✉ nefelizafeiri@gmail.com</a>
         <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank">in LinkedIn</a>
@@ -19,7 +20,18 @@ title: ""
   </div>
 </div>
 
+<!-- ═══════════════ TAB NAVIGATION ═══════════════ -->
+<div class="tab-nav" id="tab-nav">
+  <div class="tab-nav-inner">
+    <a href="#education"  class="tab-link">Education</a>
+    <a href="#experience" class="tab-link">Experience</a>
+    <a href="#activities" class="tab-link">Activities</a>
+    <a href="#skills"     class="tab-link">Skills</a>
+  </div>
+</div>
+
 <!-- ═══════════════ EDUCATION ═══════════════ -->
+<div id="education" class="section-anchor">
 <div class="section">
   <h2 class="section-title">Education</h2>
 
@@ -48,9 +60,10 @@ title: ""
     </div>
   </div>
 </div>
+</div>
 
 <!-- ═══════════════ EXPERIENCE ═══════════════ -->
-<div class="section-alt">
+<div id="experience" class="section-anchor section-alt">
 <div class="section">
   <h2 class="section-title">Experience</h2>
 
@@ -122,6 +135,7 @@ title: ""
 </div>
 
 <!-- ═══════════════ ACTIVITIES & INTERESTS ═══════════════ -->
+<div id="activities" class="section-anchor">
 <div class="section">
   <h2 class="section-title">Activities &amp; Interests</h2>
 
@@ -217,9 +231,10 @@ title: ""
     </ul>
   </div>
 </div>
+</div>
 
 <!-- ═══════════════ SKILLS ═══════════════ -->
-<div class="section-alt">
+<div id="skills" class="section-anchor section-alt">
 <div class="section">
   <h2 class="section-title">Skills</h2>
 
@@ -235,7 +250,6 @@ title: ""
         <span class="tag">Minitab</span>
         <span class="tag">Visio</span>
         <span class="tag">Jira</span>
-        <span class="tag">Six Sigma Green Belt</span>
       </div>
     </div>
 
@@ -268,4 +282,35 @@ title: ""
      <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank">LinkedIn</a>
   </p>
 </div>
+
+<!-- ═══════════════ TAB ACTIVE STATE SCRIPT ═══════════════ -->
+<script>
+(function () {
+  const tabLinks = document.querySelectorAll('.tab-link');
+  const sectionIds = ['education', 'experience', 'activities', 'skills'];
+
+  function setActive(id) {
+    tabLinks.forEach(function(link) {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+    });
+  }
+
+  // IntersectionObserver to highlight active section tab
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        setActive(entry.target.id);
+      }
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+
+  sectionIds.forEach(function(id) {
+    const el = document.getElementById(id);
+    if (el) observer.observe(el);
+  });
+
+  // Set initial active on page load
+  setActive('education');
+})();
+</script>
 ```
