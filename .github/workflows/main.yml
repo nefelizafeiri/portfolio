@@ -25,7 +25,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Quarto website
-        run: quarto render nefeli-website
+        run: |
+          cd nefeli-website
+          quarto render
+          echo "--- Rendered files ---"
+          ls docs/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
