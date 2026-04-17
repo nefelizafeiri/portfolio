@@ -1,0 +1,154 @@
+---
+title: ""
+---
+
+```{=html}
+<!-- ═══════════════ PROJECT HERO ═══════════════ -->
+<div class="project-hero">
+  <div class="project-hero-inner">
+    <div class="project-badge">Deloitte Capstone · Jan 2026 – May 2026</div>
+    <h1>AI-Driven Wildfire Risk Monitoring</h1>
+    <p class="project-tagline">Translating satellite data and machine learning into real-time early-warning insights for wildfire response teams.</p>
+    <div class="project-meta-chips">
+      <span class="chip">Python</span>
+      <span class="chip">Machine Learning</span>
+      <span class="chip">Geospatial Data</span>
+      <span class="chip">Data Visualization</span>
+      <span class="chip">Deloitte Partnership</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ CONTENT ═══════════════ -->
+<div class="project-body">
+
+  <!-- Overview -->
+  <div class="project-section">
+    <div class="project-section-inner">
+      <h2 class="section-title">Overview</h2>
+      <p>
+        As part of the University of Miami MSBA Deloitte DIRPA cohort, our team partnered with Deloitte to design an
+        AI-driven solution for wildfire risk monitoring and early detection. Wildfires cause billions in damages annually
+        and early-warning capabilities can directly save lives. This project bridges advanced analytics with operational
+        decision-making for emergency response stakeholders.
+      </p>
+    </div>
+  </div>
+
+  <!-- Role & Team -->
+  <div class="project-section project-section-alt">
+    <div class="project-section-inner two-col">
+      <div>
+        <h2 class="section-title">My Role</h2>
+        <p>
+          I served as a data analytics and strategy contributor, responsible for translating analytical outputs into
+          actionable business insights. My focus spanned data pipeline exploration, stakeholder communication, and
+          framing model outputs as decision-ready intelligence.
+        </p>
+        <ul class="project-list">
+          <li>Analyzed environmental and satellite datasets to identify fire-risk indicators</li>
+          <li>Developed data visualizations to communicate risk patterns to non-technical stakeholders</li>
+          <li>Contributed to the project strategy and client-facing reporting framework</li>
+          <li>Collaborated across a cross-functional team with Deloitte advisors</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="section-title">Project Scope</h2>
+        <div class="scope-card">
+          <div class="scope-item">
+            <span class="scope-label">Client</span>
+            <span class="scope-value">Deloitte</span>
+          </div>
+          <div class="scope-item">
+            <span class="scope-label">Program</span>
+            <span class="scope-value">DIRPA — Deloitte Institute for Research &amp; Practice in Analytics</span>
+          </div>
+          <div class="scope-item">
+            <span class="scope-label">Duration</span>
+            <span class="scope-value">January 2026 – May 2026</span>
+          </div>
+          <div class="scope-item">
+            <span class="scope-label">Domain</span>
+            <span class="scope-value">Environmental Risk · AI / ML · Public Safety</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approach -->
+  <div class="project-section">
+    <div class="project-section-inner">
+      <h2 class="section-title">Approach</h2>
+      <div class="approach-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h4>Data Collection &amp; Exploration</h4>
+            <p>Gathered and cleaned geospatial, weather, and historical wildfire datasets to build a reliable analytical foundation.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h4>Risk Modeling</h4>
+            <p>Applied machine learning techniques to identify environmental risk factors and predict high-probability ignition zones.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h4>Visualization &amp; Insight Design</h4>
+            <p>Designed interactive risk maps and dashboards enabling stakeholders to interpret outputs without specialized data science backgrounds.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h4>Strategic Recommendations</h4>
+            <p>Translated model findings into operational recommendations, aligning analytics outputs with real-world emergency response workflows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Key Takeaways -->
+  <div class="project-section project-section-alt">
+    <div class="project-section-inner">
+      <h2 class="section-title">Key Takeaways</h2>
+      <div class="takeaway-grid">
+        <div class="takeaway-card">
+          <div class="takeaway-icon">🔥</div>
+          <h4>Real-World Impact</h4>
+          <p>Directly applicable to emergency management decision-making at a scale where timing matters most.</p>
+        </div>
+        <div class="takeaway-card">
+          <div class="takeaway-icon">🤝</div>
+          <h4>Industry Collaboration</h4>
+          <p>Worked alongside Deloitte professionals, gaining hands-on exposure to enterprise-level consulting workflows.</p>
+        </div>
+        <div class="takeaway-card">
+          <div class="takeaway-icon">📊</div>
+          <h4>Insight Communication</h4>
+          <p>Refined the ability to present complex analytics in a way that drives action across diverse audiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════ BACK LINK ═══════════════ -->
+<div class="back-link-row">
+  <a href="index.html" class="back-link">← Back to Portfolio</a>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<div class="site-footer">
+  <p>© 2026 Nefeli Zafeiri &nbsp;·&nbsp;
+     <a href="mailto:nefelizafeiri@gmail.com">nefelizafeiri@gmail.com</a> &nbsp;·&nbsp;
+     <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank">LinkedIn</a>
+  </p>
+</div>
+```

@@ -25,6 +25,7 @@ title: ""
   <div class="tab-nav-inner">
     <a href="#education"  class="tab-link">Education</a>
     <a href="#experience" class="tab-link">Experience</a>
+    <a href="#projects"   class="tab-link">Projects</a>
     <a href="#activities" class="tab-link">Activities</a>
     <a href="#skills"     class="tab-link">Skills</a>
   </div>
@@ -134,6 +135,48 @@ title: ""
 </div>
 </div>
 
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+<div id="projects" class="section-anchor section-alt">
+<div class="section">
+  <h2 class="section-title">Projects</h2>
+
+  <a href="capstone.html" class="project-card-link">
+    <div class="project-card">
+      <div class="project-card-top">
+        <div>
+          <span class="project-card-badge">Deloitte · Jan 2026 – May 2026</span>
+          <h3 class="project-card-title">AI-Driven Wildfire Risk Monitoring</h3>
+          <p class="project-card-desc">Developing an AI solution for wildfire risk monitoring and early detection in collaboration with Deloitte, translating geospatial and environmental analytics into actionable insights for real-world decision-making.</p>
+        </div>
+        <span class="project-card-arrow">→</span>
+      </div>
+      <div class="project-card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Geospatial Data</span>
+        <span class="tag">Data Visualization</span>
+      </div>
+    </div>
+  </a>
+
+  <div class="project-card project-card-static">
+    <div class="project-card-top">
+      <div>
+        <span class="project-card-badge">Personal · Aug 2025 – Oct 2025</span>
+        <h3 class="project-card-title">Python Budget App</h3>
+        <p class="project-card-desc">Built a personal finance application featuring automated expense tracking, category analysis, and data visualizations to support budget planning and financial awareness.</p>
+      </div>
+    </div>
+    <div class="project-card-tags">
+      <span class="tag">Python</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Automation</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
 <!-- ═══════════════ ACTIVITIES & INTERESTS ═══════════════ -->
 <div id="activities" class="section-anchor">
 <div class="section">
@@ -155,38 +198,12 @@ title: ""
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Deloitte Capstone Project — Wildfire AI</span>
-      <span class="entry-role">AI-Driven Wildfire Risk Monitoring</span>
-    </div>
-    <div class="entry-meta">
-      <span class="entry-date">January 2026 – May 2026</span>
-    </div>
-    <ul>
-      <li>Collaborating with Deloitte to develop an AI-driven solution for wildfire risk monitoring and early detection, translating analytics into insights for real-world decision-making</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
       <span class="entry-org">Graduate Business Student Association</span>
       <span class="entry-role">MSBA Cohort Representative</span>
       <span class="entry-location">Miami, FL</span>
     </div>
     <ul>
       <li>Represent the MSBA program, supporting initiatives to improve student engagement and collaboration</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-org">Python Project</span>
-      <span class="entry-role">Budget App Developer</span>
-    </div>
-    <div class="entry-meta">
-      <span class="entry-date">August 2025 – October 2025</span>
-    </div>
-    <ul>
-      <li>Built a Python Budget App with expense tracking, automation, and visualization</li>
     </ul>
   </div>
 
@@ -287,7 +304,7 @@ title: ""
 <script>
 (function () {
   const tabLinks = document.querySelectorAll('.tab-link');
-  const sectionIds = ['education', 'experience', 'activities', 'skills'];
+  const sectionIds = ['education', 'experience', 'projects', 'activities', 'skills'];
 
   function setActive(id) {
     tabLinks.forEach(function(link) {

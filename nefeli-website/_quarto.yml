@@ -10,6 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: capstone.qmd
+        text: Capstone Project
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/nefeli-zafeiri
