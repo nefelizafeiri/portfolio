@@ -78,6 +78,7 @@ title: ""
       <span class="entry-date">October 2025 – Present</span>
     </div>
     <ul>
+      <li>Developed and manage the professor's Python library website, handling design, content updates, and ongoing maintenance</li>
       <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
       <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
       <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
