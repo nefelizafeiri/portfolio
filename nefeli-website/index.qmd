@@ -91,7 +91,7 @@ title: ""
       <span class="entry-date">October 2025 – Present</span>
     </div>
     <ul>
-      <li>Developed and manage the professor's Python library website, handling design, content updates, and ongoing maintenance</li>
+      <li>Designed and built <strong>Ravix</strong>, the website for an open-source Python regression library accompanying a Springer-published textbook — responsible for design, content, and ongoing maintenance</li>
       <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
       <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
       <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
@@ -178,7 +178,7 @@ title: ""
       <div>
         <span class="project-card-badge badge-featured">★ First AI Model · Apr 2026</span>
         <h3 class="project-card-title">Chart Reasoner — Fine-tuned Phi-3 Mini</h3>
-        <p class="project-card-desc">My first published AI model: a LoRA fine-tune of Microsoft's Phi-3 Mini (4k) for chart reasoning — extracting structured insights from chart images. Trained with Unsloth + TRL and released on the Hugging Face Hub.</p>
+        <p class="project-card-desc">My first published AI model: a LoRA fine-tune of Microsoft's Phi-3 Mini (4k) for chart reasoning — extracting structured insights from chart images. Trained with Unsloth + TRL and released on the Hugging Face Hub as a component of the SQL Agent stack.</p>
       </div>
     </div>
     <div class="project-card-tags">
@@ -201,19 +201,22 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Team Project · Apr 2026</span>
-        <h3 class="project-card-title">SQL Agent with LLMOps</h3>
-        <p class="project-card-desc">Multi-model SQL agent built with a classmate for the LLMOps course. Fine-tuned models for SQL generation, chart reasoning, and SVG rendering work together through an orchestration pipeline deployed on Hugging Face Spaces.</p>
+        <span class="project-card-badge">Team Project · Apr 2026 · Hugging Face Spaces</span>
+        <h3 class="project-card-title">SQL Agent — Natural Language to SQL</h3>
+        <p class="project-card-desc">A multi-model AI agent that accepts a natural-language question, generates and executes the corresponding SQL query, and returns an interactive data visualization. Three open-source LLMs were fine-tuned on a 761K-row curated dataset for SQL generation, chart reasoning, and SVG rendering, then deployed end-to-end on Hugging Face Spaces.</p>
       </div>
     </div>
     <div class="project-card-tags">
       <span class="tag">LLMOps</span>
-      <span class="tag">Fine-tuning</span>
-      <span class="tag">SQL Generation</span>
+      <span class="tag">PyTorch</span>
+      <span class="tag">LLM Fine-Tuning</span>
       <span class="tag">Hugging Face Spaces</span>
       <span class="tag">Python</span>
     </div>
     <div class="project-card-actions">
+      <a href="https://huggingface.co/nefelizafeiri" target="_blank" rel="noopener" class="action-btn action-btn-primary">
+        <span aria-hidden="true">🤗</span> View on Hugging Face
+      </a>
       <a href="https://github.com/DanielRegaladoUMiami/sql-agent-llmops" target="_blank" rel="noopener" class="action-btn">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
         View on GitHub
