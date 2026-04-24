@@ -56,7 +56,7 @@ title: ""
       <span class="entry-location">Coral Gables, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">Expected May 2026</span>
+      <span class="entry-date">May 2026</span>
     </div>
     <ul>
       <li><strong>Related Coursework:</strong> Quality Management, Supply Chain Analytics, Business Consulting Analytics, Product Management</li>

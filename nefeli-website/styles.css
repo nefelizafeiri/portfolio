@@ -6,25 +6,25 @@
    DESIGN TOKENS — grayscale editorial
    ══════════════════════════════════════════ */
 :root {
-  /* Ink (text + UI) */
-  --ink:          #1a1a1a;
-  --ink-2:        #2d2d2d;
-  --ink-3:        #4a4a4a;
-  --muted:        #6e6e6e;
-  --muted-2:      #8c8c8c;
-  --hairline:     #e2e0dc;
-  --hairline-2:   #d4d1cc;
+  /* Ink (warm, not pure black) */
+  --ink:          #2a2418;
+  --ink-2:        #3a3327;
+  --ink-3:        #52493a;
+  --muted:        #7a6e58;
+  --muted-2:      #988b71;
+  --hairline:     #e5d9b8;
+  --hairline-2:   #d4c69c;
 
-  /* Surfaces (warm neutral, not cold) */
-  --surface:      #ffffff;
-  --bg:           #f7f5f0;
-  --bg-alt:       #efede7;
-  --dark:         #1f1f1f;
-  --dark-2:       #2a2a2a;
+  /* Surfaces — cream throughout */
+  --surface:      #fbf4dd;       /* lightest cream (cards) */
+  --bg:           #f5ecd3;       /* main cream */
+  --bg-alt:       #efe3bd;       /* deeper cream (alt sections) */
+  --dark:         #2a2418;
+  --dark-2:       #3a3327;
 
-  /* Single understated warm accent, used sparingly */
-  --accent:       #6b5a3e;       /* muted bronze */
-  --accent-soft:  #f0ebe0;
+  /* Warm amber accent */
+  --accent:       #9a7528;       /* burnished amber */
+  --accent-soft:  #e8d7a3;
 
   /* Typography */
   --serif:        'Source Serif 4', 'Source Serif Pro', Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
@@ -64,9 +64,9 @@ h1, h2, h3, h4 {
 a { color: var(--ink); text-decoration: none; }
 a:hover { color: var(--accent); }
 
-/* Bootstrap / Quarto navbar overrides — keep it quiet */
+/* Bootstrap / Quarto navbar overrides — cream, quiet */
 .navbar {
-  background-color: var(--surface) !important;
+  background-color: var(--bg) !important;
   border-bottom: 1px solid var(--hairline);
   box-shadow: none !important;
 }
@@ -103,15 +103,18 @@ a:hover { color: var(--accent); }
 }
 
 .hero-photo {
-  width: 150px;
-  height: 185px;
-  border-radius: 3px;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center top;
-  border: none;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  border: 1px solid rgba(42,36,24,0.08);
+  box-shadow:
+    0 0 0 5px var(--bg),
+    0 0 0 6px var(--accent),
+    0 10px 28px rgba(42,36,24,0.10);
   flex-shrink: 0;
-  filter: grayscale(6%) contrast(0.98);
+  filter: grayscale(4%) contrast(0.98);
 }
 
 .hero-text { text-align: left; flex: 1; min-width: 260px; }
@@ -622,30 +625,30 @@ a:hover { color: var(--accent); }
 .site-footer {
   text-align: center;
   padding: 3rem 2rem;
-  margin-top: 3rem;
+  margin-top: 0;
   font-family: var(--sans);
   font-size: 0.82rem;
-  background: var(--dark);
-  color: #a8a49a;
+  background: var(--bg);
+  color: var(--muted);
   border-top: 1px solid var(--hairline);
   letter-spacing: 0.02em;
 }
 
 .site-footer a {
-  color: #d9d5cc;
+  color: var(--ink-2);
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.site-footer a:hover { color: #ffffff; }
+.site-footer a:hover { color: var(--accent); }
 
 /* ══════════════════════════════════════════
    CAPSTONE PAGE
    ══════════════════════════════════════════ */
 .project-hero {
-  background: var(--dark);
-  color: #e9e6df;
-  padding: 5.5rem 2rem 4.5rem;
+  background: var(--bg);
+  color: var(--ink-2);
+  padding: 5rem 2rem 4rem;
   border-bottom: 1px solid var(--hairline);
 }
 
@@ -660,7 +663,7 @@ a:hover { color: var(--accent); }
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: #b8b4aa;
+  color: var(--muted);
   margin-bottom: 1.25rem;
 }
 
@@ -668,7 +671,7 @@ a:hover { color: var(--accent); }
   font-family: var(--serif);
   font-size: 2.4rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--ink);
   letter-spacing: -0.015em;
   margin-bottom: 1.25rem;
   line-height: 1.15;
@@ -677,7 +680,7 @@ a:hover { color: var(--accent); }
 .project-tagline {
   font-family: var(--serif);
   font-size: 1.1rem;
-  color: #d9d5cc;
+  color: var(--ink-3);
   line-height: 1.65;
   max-width: 640px;
   margin-bottom: 1.75rem;
@@ -692,8 +695,8 @@ a:hover { color: var(--accent); }
 
 .chip {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.25);
-  color: #d9d5cc;
+  border: 1px solid var(--hairline-2);
+  color: var(--ink-3);
   padding: 0.3rem 0.85rem;
   border-radius: 2px;
   font-family: var(--sans);
@@ -944,7 +947,7 @@ a:hover { color: var(--accent); }
 @media (max-width: 640px) {
   .hero               { padding: 3.5rem 1.5rem 3rem; }
   .hero-inner         { flex-direction: column; gap: 2rem; align-items: flex-start; }
-  .hero-photo         { width: 130px; height: 160px; }
+  .hero-photo         { width: 140px; height: 140px; }
   .hero h1            { font-size: 2rem; }
   .hero .subtitle     { font-size: 0.85rem; }
   .hero .bio          { font-size: 1rem; }
