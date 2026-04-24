@@ -13,16 +13,16 @@ website:
       - href: capstone.qmd
         text: Capstone Project
     right:
-      - icon: github
+      - text: GitHub
         href: https://github.com/nefelizafeiri
         aria-label: GitHub
-      - text: "🤗"
+      - text: Hugging Face
         href: https://huggingface.co/nefelizafeiri
         aria-label: Hugging Face
-      - icon: linkedin
+      - text: LinkedIn
         href: https://www.linkedin.com/in/nefeli-zafeiri
         aria-label: LinkedIn
-      - icon: envelope
+      - text: Email
         href: mailto:nefelizafeiri@gmail.com
         aria-label: Email
 
