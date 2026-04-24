@@ -10,7 +10,7 @@ title: ""
     <div class="hero-text">
       <h1>Nefeli Zafeiri</h1>
       <p class="subtitle">Business Analytics &nbsp;·&nbsp; Data Strategy &nbsp;·&nbsp; Operations</p>
-      <p class="bio">MSBA candidate at the University of Miami with a background in international business, finance, and data analytics. Passionate about translating data into actionable strategy.</p>
+      <p class="bio">MSBA at the University of Miami with a background in international business, finance, and data analytics. Passionate about translating data into actionable strategy.</p>
       <div class="contact-links">
         <a href="mailto:nefelizafeiri@gmail.com" aria-label="Email">
           <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v7A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 13.5 3h-11Zm0 1h11a.5.5 0 0 1 .5.5v.19l-6 3.75-6-3.75V4.5a.5.5 0 0 1 .5-.5Zm-.5 1.86 5.74 3.59a.5.5 0 0 0 .52 0L14 5.86V11.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V5.86Z"/></svg>
