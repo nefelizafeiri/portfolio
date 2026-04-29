@@ -265,9 +265,6 @@ body:has(.section-anchor:target:not(#capstone)) #capstone { display: none; }
   gap: 0.4rem;
   padding: 0 0.8rem;
 }
-.activity-highlight + .activity-highlight {
-  border-left: 1px solid var(--hairline);
-}
 .activity-highlight-num {
   font-family: var(--serif);
   font-size: 1.5rem;
@@ -299,12 +296,6 @@ body:has(.section-anchor:target:not(#capstone)) #capstone { display: none; }
 
 @media (max-width: 600px) {
   .activity-highlights { grid-template-columns: 1fr; }
-  .activity-highlight + .activity-highlight {
-    border-left: none;
-    border-top: 1px solid var(--hairline);
-    padding-top: 0.8rem;
-    margin-top: 0.4rem;
-  }
 }
 
 .section {
@@ -424,23 +415,12 @@ body:has(.section-anchor:target:not(#capstone)) #capstone { display: none; }
 }
 
 .entry ul li {
-  position: relative;
-  padding-left: 1rem;
+  padding-left: 0;
   margin-bottom: 0.5rem;
   font-family: var(--sans);
   font-size: 0.93rem;
   line-height: 1.7;
   color: var(--ink-3);
-}
-
-.entry ul li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.65em;
-  width: 6px;
-  height: 1px;
-  background: var(--muted-2);
 }
 
 .entry ul li strong { color: var(--ink); font-weight: 600; }

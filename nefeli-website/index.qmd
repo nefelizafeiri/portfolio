@@ -9,7 +9,7 @@ title: ""
     <img src="headshot.jpg" alt="Nefeli Zafeiri" class="hero-photo" />
     <div class="hero-text">
       <h1>Nefeli Zafeiri</h1>
-      <p class="subtitle">Business Analytics &nbsp;·&nbsp; Data Strategy &nbsp;·&nbsp; Operations</p>
+      <p class="subtitle">Business Analytics , Data Strategy , Operations</p>
       <p class="bio">MSBA at the University of Miami with a background in international business, finance, and data analytics. Passionate about translating data into actionable strategy.</p>
       <div class="contact-links">
         <a href="mailto:nefelizafeiri@gmail.com" aria-label="Email">
@@ -52,12 +52,12 @@ title: ""
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">University of Miami × Deloitte — DIRPA Capstone</span>
+      <span class="entry-org">University of Miami and Deloitte, DIRPA Capstone</span>
       <span class="entry-role">AI-Driven Wildfire Risk Monitoring</span>
       <span class="entry-location">Miami, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">January 2026 – May 2026</span>
+      <span class="entry-date">January 2026 to May 2026</span>
     </div>
     <p style="font-style: italic; color: var(--ink-2); margin: 0 0 1rem 0;">Translating satellite data and machine learning into real-time early-warning insights for wildfire response teams.</p>
     <ul>
@@ -74,7 +74,7 @@ title: ""
       <span class="tag">Streamlit</span>
     </div>
     <div class="project-card-actions" style="margin-top: 1.5rem;">
-      <a href="capstone.html" class="action-btn action-btn-primary">Read the full case study →</a>
+      <a href="capstone.html" class="action-btn action-btn-primary">Read the full case study</a>
     </div>
   </div>
 </div>
@@ -124,10 +124,10 @@ title: ""
       <span class="entry-location">Miami, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">October 2025 – Present</span>
+      <span class="entry-date">October 2025 to Present</span>
     </div>
     <ul>
-      <li>Designed and built <strong>Ravix</strong>, the website for an open-source Python regression library accompanying a Springer-published textbook — responsible for design, content, and ongoing maintenance</li>
+      <li>Designed and built <strong>Ravix</strong>, the website for an open-source Python regression library accompanying a Springer-published textbook, \1esponsible for design, content, and ongoing maintenance</li>
       <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
       <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
       <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
@@ -136,12 +136,12 @@ title: ""
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">University of Central Oklahoma — Athletic Department</span>
+      <span class="entry-org">University of Central Oklahoma, \1thletic Department</span>
       <span class="entry-role">Finance Department Assistant</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">August 2024 – May 2025</span>
+      <span class="entry-date">August 2024 to May 2025</span>
     </div>
     <ul>
       <li>Identified budget inefficiencies that reduced unnecessary event costs and improved resource utilization</li>
@@ -153,11 +153,11 @@ title: ""
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">University of Central Oklahoma</span>
-      <span class="entry-role">Research Assistant — National Conference Undergraduate Research</span>
+      <span class="entry-role">Research Assistant, \1ational Conference Undergraduate Research</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">March 2024 – April 2025</span>
+      <span class="entry-date">March 2024 to April 2025</span>
     </div>
     <ul>
       <li>Achieved <strong>1st place at Oklahoma Research Day 2025</strong> for a regression-based analysis of natural gas price behavior</li>
@@ -174,7 +174,7 @@ title: ""
       <span class="entry-location">Athens, Greece</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">June 2020 – May 2025</span>
+      <span class="entry-date">June 2020 to May 2025</span>
     </div>
     <ul>
       <li>Analyzed customer demand and product-mix trends to optimize inventory, shifting resources toward high-demand items and reducing low-performing SKUs</li>
@@ -193,7 +193,7 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Capstone · Deloitte · Jan 2026 – May 2026</span>
+        <span class="project-card-badge">Capstone, \1eloitte, \1an 2026 to May 2026</span>
         <h3 class="project-card-title">AI-Driven Wildfire Risk Monitoring</h3>
         <p class="project-card-desc">Developing an AI solution for wildfire risk monitoring and early detection in collaboration with Deloitte, translating geospatial and environmental analytics into actionable insights for real-world decision-making.</p>
       </div>
@@ -206,8 +206,7 @@ title: ""
     </div>
     <div class="project-card-actions">
       <a href="capstone.html" class="action-btn action-btn-primary">
-        Read Case Study →
-      </a>
+        Read Case Study      </a>
       <a href="https://github.com/bugasjason/wildfirewatch-app" target="_blank" rel="noopener" class="action-btn">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
         View on GitHub
@@ -218,9 +217,9 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge badge-featured">First AI Model — April 2026</span>
-        <h3 class="project-card-title">Chart Reasoner — Fine-tuned Phi-3 Mini</h3>
-        <p class="project-card-desc">My first published AI model: a LoRA fine-tune of Microsoft's Phi-3 Mini (4k) for chart reasoning — extracting structured insights from chart images. Trained with Unsloth + TRL and released on the Hugging Face Hub as a component of the SQL Agent stack.</p>
+        <span class="project-card-badge badge-featured">First AI Model, \1pril 2026</span>
+        <h3 class="project-card-title">Chart Reasoner, \1ine-tuned Phi-3 Mini</h3>
+        <p class="project-card-desc">My first published AI model: a LoRA fine-tune of Microsoft's Phi-3 Mini (4k) for chart reasoning, \1xtracting structured insights from chart images. Trained with Unsloth + TRL and released on the Hugging Face Hub as a component of the SQL Agent stack.</p>
       </div>
     </div>
     <div class="project-card-tags">
@@ -243,8 +242,8 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Team Project · Apr 2026 · Hugging Face Spaces</span>
-        <h3 class="project-card-title">SQL Agent — Natural Language to SQL</h3>
+        <span class="project-card-badge">Team Project, \1pr 2026, \1ugging Face Spaces</span>
+        <h3 class="project-card-title">SQL Agent, \1atural Language to SQL</h3>
         <p class="project-card-desc">A multi-model AI agent that accepts a natural-language question, generates and executes the corresponding SQL query, and returns an interactive data visualization. Three open-source LLMs were fine-tuned on a 761K-row curated dataset for SQL generation, chart reasoning, and SVG rendering, then deployed end-to-end on Hugging Face Spaces.</p>
       </div>
     </div>
@@ -269,7 +268,7 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Big Data Analytics · Apr 2026</span>
+        <span class="project-card-badge">Big Data Analytics, \1pr 2026</span>
         <h3 class="project-card-title">Coffee Shop Big Data Analytics</h3>
         <p class="project-card-desc">End-to-end big-data ML project on ~1.8M coffee-shop transactions. PySpark for ingest, cleaning, and EDA; scikit-learn + XGBoost + Optuna for modeling; SHAP for explainability. Delivered regression and classification models with clear lifts over baselines (wait time +34.8%, purchase amount +11.8%, rewards-target AUC 0.98).</p>
       </div>
@@ -292,9 +291,9 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Class Project · Feb 2026 · Time Series</span>
+        <span class="project-card-badge">Class Project, \1eb 2026, \1ime Series</span>
         <h3 class="project-card-title">Time Series Forecasting Comparison</h3>
-        <p class="project-card-desc">Compared classical forecasting models — ARIMA, ARIMAX with exogenous regressors (layoffs, quits, sales, wages), Naive, and a Hybrid OLS+ARIMA — against a 12-month moving average baseline on monthly economic data. The simple moving average produced the lowest MAPE; a useful reminder that complexity isn't always better.</p>
+        <p class="project-card-desc">Compared classical forecasting models, \1RIMA, ARIMAX with exogenous regressors (layoffs, quits, sales, wages), Naive, and a Hybrid OLS+ARIMA, \1gainst a 12-month moving average baseline on monthly economic data. The simple moving average produced the lowest MAPE; a useful reminder that complexity isn't always better.</p>
       </div>
     </div>
     <div class="project-card-tags">
@@ -314,8 +313,8 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Class Project · Dec 2025 · Machine Learning</span>
-        <h3 class="project-card-title">Customer Prediction with XGBoost &amp; SHAP</h3>
+        <span class="project-card-badge">Class Project, \1ec 2025, \1achine Learning</span>
+        <h3 class="project-card-title">Customer Prediction with XGBoost and SHAP</h3>
         <p class="project-card-desc">End-to-end binary classification project predicting customer behavior. EDA and preprocessing through gradient-boosted modeling with XGBoost, then SHAP values to explain individual predictions and overall feature importance. Final deliverable was a research poster.</p>
       </div>
     </div>
@@ -336,9 +335,9 @@ title: ""
   <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
-        <span class="project-card-badge">Personal · Aug 2025 – Oct 2025</span>
+        <span class="project-card-badge">Personal, \1ug 2025 to Oct 2025</span>
         <h3 class="project-card-title">Monthly Budget App</h3>
-        <p class="project-card-desc">Multi-month personal budgeting tool in Python with categorized expense tracking (needs vs wants), savings-goal progress, and data visualizations — pie chart by category, line chart over time, seasonal patterns — plus personalized tips against the 50/30/20 budget rule.</p>
+        <p class="project-card-desc">Multi-month personal budgeting tool in Python with categorized expense tracking (needs vs wants), savings-goal progress, and data visualizations, \1ie chart by category, line chart over time, seasonal patterns, \1lus personalized tips against the 50/30/20 budget rule.</p>
       </div>
     </div>
     <div class="project-card-tags">
@@ -361,7 +360,7 @@ title: ""
 <!-- ═══════════════ ACTIVITIES & INTERESTS ═══════════════ -->
 <div id="activities" class="section-anchor">
 <div class="section">
-  <h2 class="section-title">Activities &amp; Interests</h2>
+  <h2 class="section-title">Activities and Interests</h2>
 
   <!-- Highlights strip -->
   <div class="activity-highlights">
@@ -371,7 +370,7 @@ title: ""
     </div>
     <div class="activity-highlight">
       <span class="activity-highlight-num">Top 2</span>
-      <span class="activity-highlight-label">Singles &amp; Doubles Lineup</span>
+      <span class="activity-highlight-label">Singles and Doubles Lineup</span>
     </div>
     <div class="activity-highlight">
       <span class="activity-highlight-num">Greece</span>
@@ -380,19 +379,19 @@ title: ""
   </div>
 
   <!-- ── Athletics & Competition ── -->
-  <h3 class="activity-group-title">Athletics &amp; Competition</h3>
+  <h3 class="activity-group-title">Athletics and Competition</h3>
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Varsity Tennis Team — University of Central Oklahoma</span>
-      <span class="entry-role">Student-Athlete · NCAA Division II</span>
+      <span class="entry-org">Varsity Tennis Team, \1niversity of Central Oklahoma</span>
+      <span class="entry-role">Student-Athlete, \1CAA Division II</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">August 2021 – May 2025</span>
+      <span class="entry-date">August 2021 to May 2025</span>
     </div>
     <ul>
-      <li>Held Top-2 line-up positions across four collegiate seasons while playing on a roster of 6–12 athletes</li>
+      <li>Held Top-2 line-up positions across four collegiate seasons while playing on a roster of 6 to 12 athletes</li>
       <li>Competed at major regional and national NCAA tournaments against top-ranked Division II programs</li>
       <li>Balanced a year-round training and competition schedule with a full international-business academic load</li>
       <li>Built habits of discipline, time management, and pressure performance that carry into analytical work today</li>
@@ -401,8 +400,8 @@ title: ""
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">National Tennis Team — Greece</span>
-      <span class="entry-role">International Children's Games · Taipei, Taiwan</span>
+      <span class="entry-org">National Tennis Team, \1reece</span>
+      <span class="entry-role">International Children's Games, \1aipei, Taiwan</span>
     </div>
     <div class="entry-meta">
       <span class="entry-date">July 2016</span>
@@ -414,28 +413,28 @@ title: ""
   </div>
 
   <!-- ── Leadership & Community ── -->
-  <h3 class="activity-group-title">Leadership &amp; Community</h3>
+  <h3 class="activity-group-title">Leadership and Community</h3>
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Graduate Business Student Association — University of Miami</span>
+      <span class="entry-org">Graduate Business Student Association, \1niversity of Miami</span>
       <span class="entry-role">MSBA Cohort Representative</span>
       <span class="entry-location">Miami, FL</span>
     </div>
     <ul>
-      <li>Voice for the MSBA cohort on programming, academic feedback, and student–faculty engagement</li>
+      <li>Voice for the MSBA cohort on programming, academic feedback, and student and faculty engagement</li>
       <li>Coordinate cohort events that build community and collaboration across the graduate analytics program</li>
     </ul>
   </div>
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Student-Athlete Advisory Committee — UCO</span>
+      <span class="entry-org">Student-Athlete Advisory Committee, \1CO</span>
       <span class="entry-role">Member</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">August 2021 – May 2023</span>
+      <span class="entry-date">August 2021 to May 2023</span>
     </div>
     <ul>
       <li>Organized and coordinated community-service initiatives supporting student-athlete welfare</li>
@@ -444,16 +443,16 @@ title: ""
   </div>
 
   <!-- ── Awards & Recognition ── -->
-  <h3 class="activity-group-title">Awards &amp; Recognition</h3>
+  <h3 class="activity-group-title">Awards and Recognition</h3>
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Deloitte Scholar — DIRPA Program</span>
-      <span class="entry-role">Deloitte Institute for Research &amp; Practice in Analytics</span>
+      <span class="entry-org">Deloitte Scholar, \1IRPA Program</span>
+      <span class="entry-role">Deloitte Institute for Research and Practice in Analytics</span>
       <span class="entry-location">Miami, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">October 2025 – October 2026</span>
+      <span class="entry-date">October 2025 to October 2026</span>
     </div>
     <ul>
       <li>Selected through the DIRPA program for demonstrated strength in analytics and business strategy</li>
@@ -464,7 +463,7 @@ title: ""
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">Oklahoma Research Day 2025</span>
-      <span class="entry-role">1st Place — Undergraduate Research</span>
+      <span class="entry-role">1st Place, \1ndergraduate Research</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
@@ -531,15 +530,15 @@ title: ""
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 <div class="site-footer">
-  <p>© 2026 Nefeli Zafeiri &nbsp;·&nbsp;
-     <a href="mailto:nefelizafeiri@gmail.com">Email</a> &nbsp;·&nbsp;
-     <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
-     <a href="https://github.com/nefelizafeiri" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp;
+  <p>© 2026 Nefeli Zafeiri ,
+     <a href="mailto:nefelizafeiri@gmail.com">Email</a> ,
+     <a href="https://www.linkedin.com/in/nefeli-zafeiri" target="_blank" rel="noopener">LinkedIn</a> ,
+     <a href="https://github.com/nefelizafeiri" target="_blank" rel="noopener">GitHub</a> ,
      <a href="https://huggingface.co/nefelizafeiri" target="_blank" rel="noopener">Hugging Face</a>
   </p>
 </div>
 
-<!-- ═══════════════ ACTIVE TAB HIGHLIGHT (cosmetic — panel switching is CSS) ═══════════════ -->
+<!-- ═══════════════ ACTIVE TAB HIGHLIGHT (cosmetic, \1anel switching is CSS) ═══════════════ -->
 <script>
 (function () {
   function setActive() {
