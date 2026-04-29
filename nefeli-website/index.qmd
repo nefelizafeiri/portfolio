@@ -36,7 +36,7 @@ title: ""
 <!-- ═══════════════ TAB NAVIGATION ═══════════════ -->
 <div class="tab-nav" id="tab-nav">
   <div class="tab-nav-inner">
-    <a href="#capstone"   class="tab-link tab-featured">Capstone</a>
+    <a href="#capstone"   class="tab-link">Capstone</a>
     <a href="#education"  class="tab-link">Education</a>
     <a href="#experience" class="tab-link">Experience</a>
     <a href="#projects"   class="tab-link">Projects</a>
@@ -45,44 +45,38 @@ title: ""
   </div>
 </div>
 
-<!-- ═══════════════ CAPSTONE (FEATURED) ═══════════════ -->
+<!-- ═══════════════ CAPSTONE ═══════════════ -->
 <div id="capstone" class="section-anchor">
-<div class="section section-featured">
-  <span class="featured-badge">★ Featured · Deloitte Capstone</span>
-  <h2 class="featured-title">AI-Driven Wildfire Risk Monitoring</h2>
-  <p class="featured-tagline">Translating satellite data and machine learning into real-time early-warning insights for wildfire response teams.</p>
+<div class="section">
+  <h2 class="section-title">Capstone</h2>
 
-  <div class="featured-meta">
-    <div class="featured-meta-item">
-      <span class="featured-meta-label">Client</span>
-      <span class="featured-meta-value">Deloitte · DIRPA</span>
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Miami × Deloitte — DIRPA Capstone</span>
+      <span class="entry-role">AI-Driven Wildfire Risk Monitoring</span>
+      <span class="entry-location">Miami, FL</span>
     </div>
-    <div class="featured-meta-item">
-      <span class="featured-meta-label">Duration</span>
-      <span class="featured-meta-value">Jan 2026 – May 2026</span>
+    <div class="entry-meta">
+      <span class="entry-date">January 2026 – May 2026</span>
     </div>
-    <div class="featured-meta-item">
-      <span class="featured-meta-label">Domain</span>
-      <span class="featured-meta-value">AI · Geospatial · Public Safety</span>
+    <p style="font-style: italic; color: var(--ink-2); margin: 0 0 1rem 0;">Translating satellite data and machine learning into real-time early-warning insights for wildfire response teams.</p>
+    <ul>
+      <li>Partnered with Deloitte through the University of Miami DIRPA cohort to design an AI solution for wildfire risk monitoring and early detection</li>
+      <li>Translated geospatial and environmental analytics into decision-ready intelligence for emergency response stakeholders</li>
+      <li>Contributed to data pipeline exploration, stakeholder communication, and the client-facing reporting framework</li>
+      <li>Cross-functional collaboration with Deloitte advisors and a multi-disciplinary student team</li>
+    </ul>
+    <div class="project-card-tags" style="margin-top: 1.2rem;">
+      <span class="tag">Python</span>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Geospatial Data</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Streamlit</span>
+    </div>
+    <div class="project-card-actions" style="margin-top: 1.5rem;">
+      <a href="capstone.html" class="action-btn action-btn-primary">Read the full case study →</a>
     </div>
   </div>
-
-  <ul>
-    <li>Partnered with Deloitte through the University of Miami DIRPA cohort to design an AI solution for wildfire risk monitoring and early detection</li>
-    <li>Translated geospatial and environmental analytics into decision-ready intelligence for emergency response stakeholders</li>
-    <li>Contributed to data pipeline exploration, stakeholder communication, and the client-facing reporting framework</li>
-    <li>Cross-functional collaboration with Deloitte advisors and a multi-disciplinary student team</li>
-  </ul>
-
-  <div class="project-card-tags" style="margin-top: 1.2rem;">
-    <span class="tag">Python</span>
-    <span class="tag">Machine Learning</span>
-    <span class="tag">Geospatial Data</span>
-    <span class="tag">Data Visualization</span>
-    <span class="tag">Streamlit</span>
-  </div>
-
-  <a href="capstone.html" class="featured-cta">Read the full case study →</a>
 </div>
 </div>
 
@@ -369,6 +363,89 @@ title: ""
 <div class="section">
   <h2 class="section-title">Activities &amp; Interests</h2>
 
+  <!-- Highlights strip -->
+  <div class="activity-highlights">
+    <div class="activity-highlight">
+      <span class="activity-highlight-num">4 yrs</span>
+      <span class="activity-highlight-label">Varsity Tennis</span>
+    </div>
+    <div class="activity-highlight">
+      <span class="activity-highlight-num">Top 2</span>
+      <span class="activity-highlight-label">Singles &amp; Doubles Lineup</span>
+    </div>
+    <div class="activity-highlight">
+      <span class="activity-highlight-num">Greece</span>
+      <span class="activity-highlight-label">National Tennis Team</span>
+    </div>
+  </div>
+
+  <!-- ── Athletics & Competition ── -->
+  <h3 class="activity-group-title">Athletics &amp; Competition</h3>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Varsity Tennis Team — University of Central Oklahoma</span>
+      <span class="entry-role">Student-Athlete · NCAA Division II</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2021 – May 2025</span>
+    </div>
+    <ul>
+      <li>Held Top-2 line-up positions across four collegiate seasons while playing on a roster of 6–12 athletes</li>
+      <li>Competed at major regional and national NCAA tournaments against top-ranked Division II programs</li>
+      <li>Balanced a year-round training and competition schedule with a full international-business academic load</li>
+      <li>Built habits of discipline, time management, and pressure performance that carry into analytical work today</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">National Tennis Team — Greece</span>
+      <span class="entry-role">International Children's Games · Taipei, Taiwan</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">July 2016</span>
+    </div>
+    <ul>
+      <li>Selected to represent Greece on the national youth tennis team at an international multi-sport competition</li>
+      <li>Competed against city- and federation-level junior champions from across the world</li>
+    </ul>
+  </div>
+
+  <!-- ── Leadership & Community ── -->
+  <h3 class="activity-group-title">Leadership &amp; Community</h3>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Graduate Business Student Association — University of Miami</span>
+      <span class="entry-role">MSBA Cohort Representative</span>
+      <span class="entry-location">Miami, FL</span>
+    </div>
+    <ul>
+      <li>Voice for the MSBA cohort on programming, academic feedback, and student–faculty engagement</li>
+      <li>Coordinate cohort events that build community and collaboration across the graduate analytics program</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">Student-Athlete Advisory Committee — UCO</span>
+      <span class="entry-role">Member</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2021 – May 2023</span>
+    </div>
+    <ul>
+      <li>Organized and coordinated community-service initiatives supporting student-athlete welfare</li>
+      <li>Contributed to Athletic Department programs supporting athlete academics, wellness, and engagement</li>
+    </ul>
+  </div>
+
+  <!-- ── Awards & Recognition ── -->
+  <h3 class="activity-group-title">Awards &amp; Recognition</h3>
+
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">Deloitte Scholar — DIRPA Program</span>
@@ -379,59 +456,22 @@ title: ""
       <span class="entry-date">October 2025 – October 2026</span>
     </div>
     <ul>
-      <li>Won a scholarship in data visualization demonstrating strength in analytics and business strategy</li>
+      <li>Selected through the DIRPA program for demonstrated strength in analytics and business strategy</li>
+      <li>Recognized in the data-visualization category, placing among the top student submissions in the cohort</li>
     </ul>
   </div>
 
   <div class="entry">
     <div class="entry-header">
-      <span class="entry-org">Graduate Business Student Association</span>
-      <span class="entry-role">MSBA Cohort Representative</span>
-      <span class="entry-location">Miami, FL</span>
-    </div>
-    <ul>
-      <li>Represent the MSBA program, supporting initiatives to improve student engagement and collaboration</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-org">Varsity Tennis Team</span>
-      <span class="entry-role">Student-Athlete</span>
+      <span class="entry-org">Oklahoma Research Day 2025</span>
+      <span class="entry-role">1st Place — Undergraduate Research</span>
+      <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">August 2021 – May 2025</span>
+      <span class="entry-date">April 2025</span>
     </div>
     <ul>
-      <li>Awarded Top-2 line-up positions throughout college tennis career while leading a team of 6–12 players</li>
-      <li>Represented the university at major regional and national NCAA tournaments, competing against top-ranked athletes</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-org">Student-Athlete Advisory Committee</span>
-      <span class="entry-role">Member</span>
-    </div>
-    <div class="entry-meta">
-      <span class="entry-date">August 2021 – May 2023</span>
-    </div>
-    <ul>
-      <li>Organized and coordinated community service initiatives supporting student-athlete welfare</li>
-      <li>Contributed to enhancements of Athletic Department programs for student-athletes</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-org">International Children Games — Taipei, Taiwan</span>
-      <span class="entry-role">National Tennis Team — Greece</span>
-    </div>
-    <div class="entry-meta">
-      <span class="entry-date">July 2016</span>
-    </div>
-    <ul>
-      <li>Represented Greece as a member of the National Tennis Team at an international multi-sport competition</li>
+      <li>Won 1st place statewide for a regression-based analysis of natural-gas price behavior under weather and forecast inputs</li>
     </ul>
   </div>
 </div>
