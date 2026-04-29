@@ -179,7 +179,7 @@ title: ""
     </div>
   </div>
 
-  <div class="project-card project-card-static project-card-featured">
+  <div class="project-card project-card-static">
     <div class="project-card-top">
       <div>
         <span class="project-card-badge badge-featured">First AI Model — April 2026</span>
