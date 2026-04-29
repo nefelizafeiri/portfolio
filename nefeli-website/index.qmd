@@ -408,6 +408,7 @@ title: ""
       <div class="tag-list">
         <span class="tag">Python</span>
         <span class="tag">SQL</span>
+        <span class="tag">Snowflake</span>
         <span class="tag">pandas</span>
         <span class="tag">scikit-learn</span>
         <span class="tag">XGBoost</span>
@@ -442,6 +443,11 @@ title: ""
       <h4>Certifications</h4>
       <div class="tag-list">
         <span class="tag">Six Sigma Green Belt</span>
+        <span class="tag">ECDL Standard Certificate</span>
+        <span class="tag">DataCamp Intermediate Python</span>
+        <span class="tag">DataCamp Preprocessing for Machine Learning in Python</span>
+        <span class="tag">DataCamp Introduction to Statistics in Python</span>
+        <span class="tag">DataCamp Machine Learning for Marketing in Python</span>
         <span class="tag">PTR Tennis Coaching (Jan 2023)</span>
       </div>
     </div>
