@@ -346,6 +346,9 @@ title: ""
       <span class="entry-role">MSBA Cohort Representative</span>
       <span class="entry-location">Miami, FL</span>
     </div>
+    <div class="entry-meta">
+      <span class="entry-date">September 2025 to May 2026</span>
+    </div>
     <ul>
       <li>Represent the MSBA program, supporting initiatives to improve student engagement and collaboration</li>
     </ul>
