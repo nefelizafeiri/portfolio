@@ -1,47 +1,56 @@
-# Nefeli Zafeiri — Personal Website
+# nefeli-website
 
-A personal portfolio website built with [Quarto](https://quarto.org), automatically deployed to GitHub Pages.
+Quarto source for the personal portfolio. See the [repo root README](../README.md)
+for what's on the site and overall layout.
 
-## 🚀 Publishing to GitHub Pages (Step-by-Step)
+**Live:** https://nefelizafeiri.github.io/portfolio/
 
-### 1. Install Quarto (one time only)
-Download and install from [quarto.org/docs/get-started](https://quarto.org/docs/get-started/).
+## Local preview
 
-### 2. Preview locally
 ```bash
+# One-time install
+# https://quarto.org/docs/get-started/
+
+cd nefeli-website
 quarto preview
 ```
-This opens a live preview in your browser at `http://localhost:4040`.
 
-### 3. Push to GitHub
+The preview opens in the browser at `http://localhost:4040` and live-reloads
+as you edit `index.qmd`, `capstone.qmd`, or `styles.css`.
 
-Create a new **public** repository on GitHub, then run:
+## Deploying
+
+The site auto-deploys via GitHub Actions on every push to `main` — see
+[`.github/workflows/main.yml`](../.github/workflows/main.yml) (in the repo
+root). No manual `quarto render` or upload step needed.
+
+To preview the rendered output without pushing:
 
 ```bash
-git init
-git add .
-git commit -m "Initial website commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
+quarto render
+open docs/index.html
 ```
 
-### 4. Enable GitHub Pages
-1. Go to your repo → **Settings** → **Pages**
-2. Under **Source**, select **GitHub Actions**
-3. Save — that's it! Your site will be live at `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-
-Every time you push to `main`, GitHub Actions will automatically rebuild and deploy your site.
-
-## 📁 Project Structure
+## Project structure
 
 ```
 nefeli-website/
-├── _quarto.yml          # Site configuration
-├── index.qmd            # Main page content
-├── styles.css           # Custom styling
-├── docs/                # Generated output (created by quarto render)
-└── .github/
-    └── workflows/
-        └── deploy.yml   # Auto-deploy to GitHub Pages
+├── _quarto.yml              # Site config (theme, title, output dir)
+├── index.qmd                # Hero + Education + Experience + Projects + Activities + Skills
+├── capstone.qmd             # Deloitte capstone detail page (linked from project card)
+├── styles.css               # Custom SCSS — palette, hero, project cards, tabs
+├── headshot.jpg             # Hero portrait
+└── docs/                    # Quarto build output — committed for GitHub Pages
 ```
+
+## Editing tips
+
+- **Adding a project card** — add a `.project-card` block inside the `#projects`
+  section in `index.qmd`. Cards in reverse-chronological order (newest first).
+- **Featured project styling** — apply the `project-card-featured` class for the
+  accent line on the left edge.
+- **Tab nav** — section IDs (`education`, `experience`, `projects`, `activities`,
+  `skills`) drive the sticky tab nav and IntersectionObserver-based active state
+  in the script at the bottom of `index.qmd`.
+- **Color palette** — defined as CSS custom properties at the top of `styles.css`
+  (`--ink`, `--surface`, `--accent`, etc.).
