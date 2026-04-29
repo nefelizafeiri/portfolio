@@ -25,7 +25,7 @@ title: ""
           GitHub
         </a>
         <a href="https://huggingface.co/nefelizafeiri" target="_blank" rel="noopener" aria-label="Hugging Face">
-          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.333a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334ZM5.667 6.167a.833.833 0 1 0 0 1.666.833.833 0 0 0 0-1.666Zm4.666 0a.833.833 0 1 0 0 1.666.833.833 0 0 0 0-1.666ZM5 9.5c0-.276.244-.483.51-.412A8.97 8.97 0 0 0 8 9.417c.85 0 1.683-.11 2.49-.33.266-.07.51.137.51.413 0 .14-.07.273-.187.39C9.937 10.696 8.99 11.333 8 11.333s-1.937-.637-2.813-1.443A.555.555 0 0 1 5 9.5Z"/></svg>
+          <span aria-hidden="true" style="font-size: 1.05rem; line-height: 1;">🤗</span>
           Hugging Face
         </a>
       </div>
