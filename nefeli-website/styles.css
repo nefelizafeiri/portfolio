@@ -240,11 +240,11 @@ a:hover { color: var(--accent); }
 }
 
 /* Panel switching via URL hash — pure CSS, no JS needed.
-   Default: capstone visible. Click any tab → :target shows that section. */
+   Default: education visible. Click any tab → :target shows that section. */
 .section-anchor { display: none; }
-#capstone { display: block; }
+#education { display: block; }
 .section-anchor:target { display: block; }
-body:has(.section-anchor:target:not(#capstone)) #capstone { display: none; }
+body:has(.section-anchor:target:not(#education)) #education { display: none; }
 
 /* ─── Activities: highlights strip + group titles ─── */
 .activity-highlights {
