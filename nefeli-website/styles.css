@@ -239,6 +239,105 @@ a:hover { color: var(--accent); }
   scroll-margin-top: calc(var(--navbar-h) + var(--tab-h) + 8px);
 }
 
+/* Tab mode — only when JS confirms it's wired up.
+   Without .tabs-active, all sections show (fail-safe). */
+body.tabs-active .section-anchor { display: none; }
+body.tabs-active .section-anchor.active { display: block; }
+
+/* ─── Capstone tab + featured section ─── */
+.tab-link.tab-featured {
+  color: var(--accent);
+  font-weight: 700;
+}
+.tab-link.tab-featured.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.tab-link.tab-featured::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.section-featured {
+  background: linear-gradient(180deg, rgba(154, 117, 40, 0.10), transparent 60%);
+  border-left: 4px solid var(--accent);
+}
+.featured-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--surface);
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.45rem 0.95rem;
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+.featured-title {
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.8rem 0;
+}
+.featured-tagline {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  color: var(--ink-2);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+.featured-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+}
+.featured-meta-item { display: flex; flex-direction: column; gap: 0.15rem; }
+.featured-meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+.featured-meta-value { color: var(--ink); font-weight: 500; }
+.featured-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: var(--surface);
+  padding: 0.85rem 1.8rem;
+  border-radius: 4px;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background 0.2s, transform 0.2s;
+}
+.featured-cta:hover {
+  background: var(--ink);
+  color: var(--surface);
+  transform: translateY(-1px);
+}
+
 .section {
   max-width: var(--max-w);
   margin: 0 auto;

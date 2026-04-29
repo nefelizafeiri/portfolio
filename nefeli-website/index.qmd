@@ -36,12 +36,54 @@ title: ""
 <!-- ═══════════════ TAB NAVIGATION ═══════════════ -->
 <div class="tab-nav" id="tab-nav">
   <div class="tab-nav-inner">
+    <a href="#capstone"   class="tab-link tab-featured">Capstone</a>
     <a href="#education"  class="tab-link">Education</a>
     <a href="#experience" class="tab-link">Experience</a>
     <a href="#projects"   class="tab-link">Projects</a>
     <a href="#activities" class="tab-link">Activities</a>
     <a href="#skills"     class="tab-link">Skills</a>
   </div>
+</div>
+
+<!-- ═══════════════ CAPSTONE (FEATURED) ═══════════════ -->
+<div id="capstone" class="section-anchor">
+<div class="section section-featured">
+  <span class="featured-badge">★ Featured · Deloitte Capstone</span>
+  <h2 class="featured-title">AI-Driven Wildfire Risk Monitoring</h2>
+  <p class="featured-tagline">Translating satellite data and machine learning into real-time early-warning insights for wildfire response teams.</p>
+
+  <div class="featured-meta">
+    <div class="featured-meta-item">
+      <span class="featured-meta-label">Client</span>
+      <span class="featured-meta-value">Deloitte · DIRPA</span>
+    </div>
+    <div class="featured-meta-item">
+      <span class="featured-meta-label">Duration</span>
+      <span class="featured-meta-value">Jan 2026 – May 2026</span>
+    </div>
+    <div class="featured-meta-item">
+      <span class="featured-meta-label">Domain</span>
+      <span class="featured-meta-value">AI · Geospatial · Public Safety</span>
+    </div>
+  </div>
+
+  <ul>
+    <li>Partnered with Deloitte through the University of Miami DIRPA cohort to design an AI solution for wildfire risk monitoring and early detection</li>
+    <li>Translated geospatial and environmental analytics into decision-ready intelligence for emergency response stakeholders</li>
+    <li>Contributed to data pipeline exploration, stakeholder communication, and the client-facing reporting framework</li>
+    <li>Cross-functional collaboration with Deloitte advisors and a multi-disciplinary student team</li>
+  </ul>
+
+  <div class="project-card-tags" style="margin-top: 1.2rem;">
+    <span class="tag">Python</span>
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Geospatial Data</span>
+    <span class="tag">Data Visualization</span>
+    <span class="tag">Streamlit</span>
+  </div>
+
+  <a href="capstone.html" class="featured-cta">Read the full case study →</a>
+</div>
 </div>
 
 <!-- ═══════════════ EDUCATION ═══════════════ -->
@@ -457,32 +499,45 @@ title: ""
   </p>
 </div>
 
-<!-- ═══════════════ TAB ACTIVE STATE SCRIPT ═══════════════ -->
+<!-- ═══════════════ TAB SWITCHER (fail-open) ═══════════════ -->
 <script>
 (function () {
-  const tabLinks = document.querySelectorAll('.tab-link');
-  const sectionIds = ['education', 'experience', 'projects', 'activities', 'skills'];
+  try {
+    var sectionIds = ['capstone', 'education', 'experience', 'projects', 'activities', 'skills'];
+    var tabLinks = document.querySelectorAll('.tab-link');
 
-  function setActive(id) {
+    if (!tabLinks.length) return;
+    for (var i = 0; i < sectionIds.length; i++) {
+      if (!document.getElementById(sectionIds[i])) return;
+    }
+
+    function showTab(id) {
+      sectionIds.forEach(function(sid) {
+        var el = document.getElementById(sid);
+        if (el) el.classList.toggle('active', sid === id);
+      });
+      tabLinks.forEach(function(link) {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+      });
+    }
+
     tabLinks.forEach(function(link) {
-      link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+      link.addEventListener('click', function(e) {
+        var href = link.getAttribute('href') || '';
+        if (href.charAt(0) !== '#') return;
+        e.preventDefault();
+        var id = href.slice(1);
+        showTab(id);
+        history.replaceState(null, '', '#' + id);
+      });
     });
+
+    document.body.classList.add('tabs-active');
+    var hash = window.location.hash.slice(1);
+    showTab(sectionIds.indexOf(hash) > -1 ? hash : 'capstone');
+  } catch (err) {
+    console.error('tab switcher failed', err);
   }
-
-  const observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) {
-        setActive(entry.target.id);
-      }
-    });
-  }, { rootMargin: '-30% 0px -60% 0px' });
-
-  sectionIds.forEach(function(id) {
-    const el = document.getElementById(id);
-    if (el) observer.observe(el);
-  });
-
-  setActive('education');
 })();
 </script>
 ```
