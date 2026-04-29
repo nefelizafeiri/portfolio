@@ -236,10 +236,8 @@ a:hover { color: var(--accent); }
    SECTIONS
    ══════════════════════════════════════════ */
 .section-anchor {
-  display: none;
   scroll-margin-top: calc(var(--navbar-h) + var(--tab-h) + 8px);
 }
-.section-anchor.active { display: block; }
 
 .section {
   max-width: var(--max-w);

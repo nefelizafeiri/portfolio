@@ -36,7 +36,7 @@ title: ""
 <!-- ═══════════════ TAB NAVIGATION ═══════════════ -->
 <div class="tab-nav" id="tab-nav">
   <div class="tab-nav-inner">
-    <a href="#education"  class="tab-link active">Education</a>
+    <a href="#education"  class="tab-link">Education</a>
     <a href="#experience" class="tab-link">Experience</a>
     <a href="#projects"   class="tab-link">Projects</a>
     <a href="#activities" class="tab-link">Activities</a>
@@ -45,7 +45,7 @@ title: ""
 </div>
 
 <!-- ═══════════════ EDUCATION ═══════════════ -->
-<div id="education" class="section-anchor active">
+<div id="education" class="section-anchor">
 <div class="section">
   <h2 class="section-title">Education</h2>
 
@@ -457,33 +457,32 @@ title: ""
   </p>
 </div>
 
-<!-- ═══════════════ TAB SWITCHER ═══════════════ -->
+<!-- ═══════════════ TAB ACTIVE STATE SCRIPT ═══════════════ -->
 <script>
 (function () {
   const tabLinks = document.querySelectorAll('.tab-link');
   const sectionIds = ['education', 'experience', 'projects', 'activities', 'skills'];
 
-  function showTab(id) {
-    sectionIds.forEach(function(sid) {
-      const el = document.getElementById(sid);
-      if (el) el.classList.toggle('active', sid === id);
-    });
+  function setActive(id) {
     tabLinks.forEach(function(link) {
       link.classList.toggle('active', link.getAttribute('href') === '#' + id);
     });
   }
 
-  tabLinks.forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const id = link.getAttribute('href').slice(1);
-      showTab(id);
-      history.replaceState(null, '', '#' + id);
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        setActive(entry.target.id);
+      }
     });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+
+  sectionIds.forEach(function(id) {
+    const el = document.getElementById(id);
+    if (el) observer.observe(el);
   });
 
-  const hash = window.location.hash.slice(1);
-  if (sectionIds.includes(hash)) showTab(hash);
+  setActive('education');
 })();
 </script>
 ```
