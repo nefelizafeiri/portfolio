@@ -246,58 +246,6 @@ a:hover { color: var(--accent); }
 .section-anchor:target { display: block; }
 body:has(.section-anchor:target:not(#education)) #education { display: none; }
 
-/* ─── Activities: highlights strip + group titles ─── */
-.activity-highlights {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin: 0 0 2.5rem 0;
-  padding: 1.4rem 0.5rem;
-  background: var(--bg-alt);
-  border: 1px solid var(--hairline);
-  border-radius: 4px;
-}
-.activity-highlight {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 0.4rem;
-  padding: 0 0.8rem;
-}
-.activity-highlight-num {
-  font-family: var(--serif);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--accent);
-  line-height: 1;
-}
-.activity-highlight-label {
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 500;
-}
-
-.activity-group-title {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 2.5rem 0 1.2rem 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--hairline);
-}
-.activity-group-title:first-of-type { margin-top: 1rem; }
-
-@media (max-width: 600px) {
-  .activity-highlights { grid-template-columns: 1fr; }
-}
-
 .section {
   max-width: var(--max-w);
   margin: 0 auto;
