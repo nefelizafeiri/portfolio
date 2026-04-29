@@ -195,8 +195,7 @@ a:hover { color: var(--accent); }
    SECONDARY NAV — sub-page tabs (quiet)
    ══════════════════════════════════════════ */
 .tab-nav {
-  position: sticky;
-  top: var(--navbar-h);
+  position: static;
   z-index: 90;
   background: var(--bg);
   border-bottom: 1px solid var(--hairline);
