@@ -71,6 +71,10 @@ title: ""
             <span class="scope-label">Domain</span>
             <span class="scope-value">Environmental Risk · AI / ML · Public Safety</span>
           </div>
+          <div class="scope-item">
+            <span class="scope-label">Repository</span>
+            <span class="scope-value"><a href="https://github.com/bugasjason/wildfirewatch-app" target="_blank" rel="noopener">github.com/bugasjason/wildfirewatch-app</a></span>
+          </div>
         </div>
       </div>
     </div>
