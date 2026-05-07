@@ -91,7 +91,7 @@ title: ""
       <span class="entry-date">October 2025 to Present</span>
     </div>
     <ul>
-      <li>Designed and built <strong>Ravix</strong>, the website for an open-source Python regression library accompanying a Springer-published textbook, responsible for design, content, and ongoing maintenance</li>
+      <li>Designed and developed two production websites for the textbook ecosystem — <strong>Ravix</strong>, the documentation site for an open-source Python regression library, and <a href="https://businessregression.com" target="_blank" rel="noopener"><strong>businessregression.com</strong></a>, the companion site for a Springer-published textbook — responsible for design, content, and ongoing maintenance</li>
       <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
       <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
       <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
