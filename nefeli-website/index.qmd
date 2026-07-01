@@ -10,7 +10,7 @@ title: ""
     <div class="hero-text">
       <h1>Nefeli Zafeiri</h1>
       <p class="subtitle">Business Analytics, Data Strategy, Operations</p>
-      <p class="bio">MSBA at the University of Miami with a background in international business, finance, and data analytics. Passionate about translating data into actionable strategy.</p>
+      <p class="bio">MSBA candidate at the University of Miami and Deloitte Scholar, with a background in international business, finance, and data analytics. I turn data into actionable strategy through predictive modeling, operations optimization, and clear visualization.</p>
       <div class="contact-links">
         <a href="mailto:nefelizafeiri@gmail.com" aria-label="Email">
           <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v7A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 13.5 3h-11Zm0 1h11a.5.5 0 0 1 .5.5v.19l-6 3.75-6-3.75V4.5a.5.5 0 0 1 .5-.5Zm-.5 1.86 5.74 3.59a.5.5 0 0 0 .52 0L14 5.86V11.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V5.86Z"/></svg>
@@ -56,10 +56,11 @@ title: ""
       <span class="entry-location">Coral Gables, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">May 2026</span>
+      <span class="entry-date">Expected May 2026</span>
     </div>
     <ul>
-      <li><strong>Related Coursework:</strong> Quality Management, Supply Chain Analytics, Business Consulting Analytics, Product Management</li>
+      <li><strong>Deloitte Scholar</strong>, Deloitte Institute for Research and Practice in Analytics (DIRPA)</li>
+      <li><strong>Related Coursework:</strong> Supply Chain Analytics, Business Consulting Analytics, Quality Management, Product Management</li>
     </ul>
   </div>
 
@@ -84,67 +85,61 @@ title: ""
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">University of Miami</span>
-      <span class="entry-role">Graduate Assistant</span>
-      <span class="entry-location">Miami, FL</span>
+      <span class="entry-role">Data &amp; Research Analyst</span>
+      <span class="entry-location">Coral Gables, FL</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">October 2025 to Present</span>
+      <span class="entry-date">September 2025 to May 2026</span>
     </div>
     <ul>
-      <li>Designed and built the documentation website for <strong>Ravix</strong>, an open-source Python regression library accompanying a Springer-published textbook, responsible for design and content</li>
-      <li>Designed and built <a href="https://businessregression.com" target="_blank" rel="noopener"><strong>businessregression.com</strong></a>, the companion site for the same Springer-published textbook, organizing dataset downloads, chapter summaries, and worked regression examples for student use</li>
-      <li>Completed an independent directed study supporting the professor's book project (research support, edits)</li>
-      <li>Support a professor who oversees the MSBA program with undergraduate course assistance and student guidance</li>
-      <li>Manage communications, follow-ups, and academic tasks to keep coursework and provide operational support</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-org">University of Central Oklahoma, Athletic Department</span>
-      <span class="entry-role">Finance Department Assistant</span>
-      <span class="entry-location">Edmond, OK</span>
-    </div>
-    <div class="entry-meta">
-      <span class="entry-date">August 2024 to May 2025</span>
-    </div>
-    <ul>
-      <li>Identified budget inefficiencies that reduced unnecessary event costs and improved resource utilization</li>
-      <li>Improved financial efficiency across athletic events by analyzing budget variances and supporting resource allocation</li>
-      <li>Reduced budget adjustments by flagging potential issues earlier in the event planning cycle</li>
+      <li>Built and launched the documentation website for <strong>Ravix</strong>, an open-source Python regression library accompanying a Springer textbook, improving accessibility and usability for students, researchers, and developers</li>
+      <li>Applied statistical and analytical expertise to develop technical documentation, regression examples, and educational content, translating complex concepts into clear, user-friendly resources</li>
+      <li>Built <a href="https://businessregression.com" target="_blank" rel="noopener"><strong>businessregression.com</strong></a>, the companion site for the same textbook, organizing dataset downloads, chapter summaries, and worked regression examples for student use</li>
     </ul>
   </div>
 
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">University of Central Oklahoma</span>
-      <span class="entry-role">Research Assistant, National Conference Undergraduate Research</span>
+      <span class="entry-role">Undergraduate Research Analyst</span>
       <span class="entry-location">Edmond, OK</span>
     </div>
     <div class="entry-meta">
-      <span class="entry-date">March 2024 to April 2025</span>
+      <span class="entry-date">January 2024 to May 2025</span>
     </div>
     <ul>
-      <li>Achieved <strong>1st place at Oklahoma Research Day 2025</strong> for a regression-based analysis of natural gas price behavior</li>
-      <li>Analyzed weather and forecast datasets in Excel to quantify their influence on natural gas price movements</li>
-      <li>Interpreted analytical findings to support financial forecasting and inform energy market decision-making</li>
-      <li>Developed predictive models using regression and time-series techniques to identify long-term market trends</li>
+      <li>Won <strong>1st place at Oklahoma Research Day 2025</strong> for a regression-based study of natural gas price behavior</li>
+      <li>Developed regression and time-series models to forecast energy-market trends and surface the key drivers of price volatility</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-org">University of Central Oklahoma, Athletic Department</span>
+      <span class="entry-role">Financial Operations Analyst</span>
+      <span class="entry-location">Edmond, OK</span>
+    </div>
+    <div class="entry-meta">
+      <span class="entry-date">August 2024 to May 2025</span>
+    </div>
+    <ul>
+      <li>Identified and flagged budget inefficiencies across <strong>20+ athletic programs</strong>, reducing event costs ahead of planning cycles</li>
+      <li>Streamlined budgeting workflows for faster, cleaner financial reporting to leadership</li>
     </ul>
   </div>
 
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">Zafeiris LTD (Beverage Distribution)</span>
-      <span class="entry-role">Communication Specialist | Business Operations</span>
+      <span class="entry-role">Business Operations Analyst</span>
       <span class="entry-location">Athens, Greece</span>
     </div>
     <div class="entry-meta">
       <span class="entry-date">June 2020 to May 2025</span>
     </div>
     <ul>
-      <li>Analyzed customer demand and product-mix trends to optimize inventory, shifting resources toward high-demand items and reducing low-performing SKUs</li>
-      <li>Expanded brand visibility by <strong>25%</strong> by assisting with promotional campaigns and community events</li>
-      <li>Negotiated pricing and delivery terms with suppliers and customers, improving cost efficiency and partnerships</li>
+      <li>Grew brand visibility by <strong>25%</strong> through data-driven campaigns; renegotiated terms with 15+ suppliers</li>
+      <li>Optimized inventory allocation across product lines by analyzing demand trends, reducing stock imbalances</li>
     </ul>
   </div>
 </div>
@@ -372,7 +367,7 @@ title: ""
   <div class="entry">
     <div class="entry-header">
       <span class="entry-org">Student-Athlete Advisory Committee</span>
-      <span class="entry-role">Member</span>
+      <span class="entry-role">Community Service Lead</span>
     </div>
     <div class="entry-meta">
       <span class="entry-date">August 2021 to May 2023</span>
@@ -410,6 +405,7 @@ title: ""
         <span class="tag">Python</span>
         <span class="tag">SQL</span>
         <span class="tag">Snowflake</span>
+        <span class="tag">Databricks</span>
         <span class="tag">pandas</span>
         <span class="tag">scikit-learn</span>
         <span class="tag">XGBoost</span>
